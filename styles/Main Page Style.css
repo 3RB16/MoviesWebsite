@@ -1,0 +1,150 @@
+body
+{
+    background-color: black;
+}
+/* words */
+
+#name
+{
+    font-family:Snap ITC;
+    color:white;
+}
+span
+{
+    color:darkorange;
+    font-family:Snap ITC;
+}
+p,#rat,#newp
+{
+    font-family:Algerian;
+    font-size: 28px;
+    color:white;
+    text-indent:13px;
+    line-height:6px 
+}
+
+video
+{
+    margin-top:20px;
+    width:900px;
+    height:500px;
+    border: 5px double  darkorange;
+}
+
+/* The right part of the page */
+
+.d_right
+{
+    width:1000px;
+    
+    float:right;
+    margin:0;
+}
+.main
+{
+    background-color:black;
+    width:960px;
+    height:1062px;
+    opacity: 0.95;
+    float:right; 
+    margin:3px;
+    border: 6px double  darkorange;
+}
+
+/* list of films */
+
+.down img
+{
+    border: 5px double  darkorange;
+    margin:3px;
+    width:170px;
+    height:205px;
+}
+.down
+{
+   margin: auto;
+   width:910px;
+   height:237px;
+   background-color:black;
+   opacity: 0.94;
+   overflow-x:scroll;
+   overflow-y:hidden;
+   margin-top:3px;
+    
+}
+.down ul
+{
+  margin: 0;
+  padding:0;
+  display:flex;
+}
+.down ul li
+{
+    list-style:none; 
+}
+
+/* style of left list*/
+
+.list
+{
+    background-color:#333333;
+    width: 287px;
+    height:1075px;
+    margin:0;
+	
+}
+#leftList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: #333333;
+}
+.list li {
+  float: none;
+}
+
+.list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15.25px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: #FFA300;
+  font-family:Verdana, Geneva, sans-serif;
+}
+
+.list li a:hover {
+  background-color: #100E17;
+  font-family: Verdana, Geneva, sans-serif;
+}
+#log :hover
+{
+background-color: red;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+  /*scroll*/
+
+::-webkit-scrollbar
+{
+    width : 14px;
+}
+::-webkit-scrollbar-track
+{
+    background-color:black; 
+    border:4px solid chocolate;
+    box-shadow:insert 0 0 2px 2px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(
+        15deg,
+        darkorange,
+        white,
+        darkorange
+        
+    ); 
+}

@@ -1,0 +1,79 @@
+body
+{
+    background-color: black;
+}
+#company
+{
+    font-size: x-large;
+    padding: 50px;
+    background-color: #FFA300; 
+    color: #ffffff;
+}
+h1
+{
+    margin-left: 580px;
+}
+#we
+{
+    margin-bottom: -10px;
+    margin-left: 550px;
+}
+#mydiv
+{
+    margin-left: 500px;
+}
+#myinput
+{
+    margin-top: 20px;
+    height: 20px;
+}
+#mybutton
+{
+    background-color:   #FFA300;
+}
+#container
+{
+    color: white;
+}
+#cloud
+{
+    margin-left: 100px;
+}
+#be
+{
+    margin-left: 300px;
+    margin-top: -77px;
+}
+#love
+{
+    margin-left: 165px;
+    margin-top: 15px;
+}
+#ve
+{
+    margin-left: 500px;
+    margin-top: -80px; 
+}
+#attachment
+{
+    margin-left: 130px;
+    margin-top: 25px;
+}
+#icondiv1
+{
+    margin-left: 250px;
+}
+#de
+{
+    margin-left: 250px;
+}
+#he
+{
+   margin-left: 550px;
+   margin-top: -97px; 
+}
+#gr
+{
+    margin-left: 750px;
+    margin-top: -97px; 
+}
